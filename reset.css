@@ -13,7 +13,7 @@ html, body {
     display: block;
 }
 
-p, div {
+p, div, h1 {
     margin: 0;
     padding:0;
 }
