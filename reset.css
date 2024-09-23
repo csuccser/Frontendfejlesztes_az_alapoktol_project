@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-html {
+html, body {
     height: 100%;
     width: 100%;
     min-height: 100%;
@@ -13,7 +13,7 @@ html {
     display: block;
 }
 
-p {
+p, div {
     margin: 0;
     padding:0;
 }
