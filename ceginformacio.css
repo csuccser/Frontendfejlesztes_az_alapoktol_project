@@ -53,8 +53,8 @@
         --section-02-detail-font-size: 22px;
         --section-03-gap: 32px;
         --section-03-par-font-size: 18px;
-        --section-04-font-size: 40px;
-        --section-04-height: 150px;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
     }
 
     .section-01-container {
@@ -111,8 +111,8 @@
         --section-02-detail-font-size: 30px;
         --section-03-gap: 80px;
         --section-03-par-font-size: 24px;
-        --section-04-font-size: 120px;
-        --section-04-height: 300px;
+        --footer-font-size: 120px;
+        --footer-height: 300px;
     }
 
     .section-01-container {
@@ -461,7 +461,7 @@
 
 .footer-container {
     width: 100%;
-    height: var(--section-04-height);
+    height: var(--footer-height);
     background: linear-gradient(to bottom, rgba(112, 0, 160, 1) 0%, rgba(160, 0, 155, 1) 100%);
     display: flex;
     flex-direction: row;
@@ -487,7 +487,7 @@
     color: #FFFFFF;
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: normal;
-    font-size: var(--section-04-font-size);
+    font-size: var(--footer-font-size);
     font-weight: 400;
     line-height: 1.2;
     text-decoration: none;
