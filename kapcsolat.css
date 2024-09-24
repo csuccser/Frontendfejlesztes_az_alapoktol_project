@@ -7,7 +7,7 @@
         --svg-color-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(236deg) brightness(103%) contrast(104%);
         --link-color: #AAAAAA;
         --link-color-bold: white;
-        --section-03-text-color: white;
+        --contact-text-color: white;
     }
 }
 
@@ -21,7 +21,7 @@
         --svg-color-filter: brightness(0) saturate(100%) invert(4%) sepia(2%) saturate(6301%) hue-rotate(202deg) brightness(97%) contrast(92%);
         --link-color: #444444;
         --link-color-bold: var(--almost-black);
-        --section-03-text-color: var(--almost-black);
+        --contact-text-color: var(--almost-black);
     }
 }
 
@@ -37,8 +37,9 @@
         --services-description-container-padding: 0 40px 0 40px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
-        --section-03-gap: 32px;
-        --section-03-par-font-size: 18px;
+        --contact-gap: 32px;
+        --contact-par-font-size: 18px;
+        --iframe-height: 400px;
     }
 
     .contact-par-margin {
@@ -62,8 +63,9 @@
         --services-description-container-padding: 0;
         --services-container-gap: 80px;
         --par-font-size: 24px;
-        --section-03-gap: 80px;
-        --section-03-par-font-size: 24px;
+        --contact-gap: 80px;
+        --contact-par-font-size: 24px;
+        --iframe-height: 100%;
     }
 
     .contact-par-margin {
@@ -218,7 +220,7 @@
     align-items: center;
     align-content: stretch;
     justify-content: center;
-    gap: var(--section-03-gap);
+    gap: var(--contact-gap);
     padding: var(--padding);
     flex-grow: 1;
 }
@@ -227,16 +229,16 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: var(--flex-direction);
     flex-wrap: nowrap;
     align-items: stretch;
     align-content: stretch;
     justify-content: center;
-    gap: 80px;
+    gap: var(--contact-gap);
 }
 
 .contact-title {
-    color: var(--section-03-text-color);
+    color: var(--contact-text-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: italic;
     font-size: 40px;
@@ -249,10 +251,10 @@
 }
 
 .contact-par {
-    color: var(--section-03-text-color);
+    color: var(--contact-text-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: normal;
-    font-size: var(--section-03-par-font-size);
+    font-size: var(--contact-par-font-size);
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0;
@@ -284,5 +286,5 @@
 iframe {
     border: 0;
     width: 100%;
-    height: 100%;
+    height: var(--iframe-height);
 }

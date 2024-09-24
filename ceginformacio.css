@@ -13,7 +13,7 @@
         --section-02-background-color: white;
         --section-02-text-color: #242430;
         --section-02-signature-color: #7000A0;
-        --section-03-text-color: white;
+        --contact-text-color: white;
     }
 }
 
@@ -33,7 +33,7 @@
         --section-02-background-color: var(--almost-black);
         --section-02-text-color: #CCCCCC;
         --section-02-signature-color: #CD7FFF;
-        --section-03-text-color: var(--almost-black);
+        --contact-text-color: var(--almost-black);
     }
 }
 
@@ -57,8 +57,8 @@
         --section-02-detail-height: auto;
         --section-02-detail-text-height: 80px;
         --section-02-detail-font-size: 22px;
-        --section-03-gap: 32px;
-        --section-03-par-font-size: 18px;
+        --contact-gap: 32px;
+        --contact-par-font-size: 18px;
         --footer-font-size: 40px;
         --footer-height: 150px;
     }
@@ -115,8 +115,8 @@
         --section-02-detail-height: 513px;
         --section-02-detail-text-height: 216px;
         --section-02-detail-font-size: 30px;
-        --section-03-gap: 80px;
-        --section-03-par-font-size: 24px;
+        --contact-gap: 80px;
+        --contact-par-font-size: 24px;
         --footer-font-size: 120px;
         --footer-height: 300px;
     }
@@ -442,12 +442,12 @@
     align-items: center;
     align-content: stretch;
     justify-content: center;
-    gap: var(--section-03-gap);
+    gap: var(--contact-gap);
     padding: var(--padding);
 }
 
 .section-03-title {
-    color: var(--section-03-text-color);
+    color: var(--contact-text-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: italic;
     font-size: 40px;
@@ -460,10 +460,10 @@
 }
 
 .section-03-par {
-    color: var(--section-03-text-color);
+    color: var(--contact-text-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: normal;
-    font-size: var(--section-03-par-font-size);
+    font-size: var(--contact-par-font-size);
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0;
