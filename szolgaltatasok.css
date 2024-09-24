@@ -34,6 +34,7 @@
         --footer-font-size: 40px;
         --footer-height: 150px;
         --services-description-container-padding: 0 40px 0 40px;
+        --services-container-gap: 64px;
         --par-font-size: 20px;
     }
 
@@ -52,6 +53,7 @@
         --footer-font-size: 120px;
         --footer-height: 300px;
         --services-description-container-padding: 0;
+        --services-container-gap: 80px;
         --par-font-size: 24px;
     }
 
@@ -195,7 +197,7 @@
     align-items: center;
     align-content: stretch;
     justify-content: center;
-    gap: 80px;
+    gap: var(--services-container-gap);
     padding: var(--padding);
 }
 

@@ -8,6 +8,7 @@
         --link-color-bold: white;
         --link-color-services: white;
         --text-shadow: none;
+        --title-color: white;
         --section-02-background-color: white;
         --section-02-text-color: #242430;
         --section-02-signature-color: #7000A0;
@@ -26,6 +27,7 @@
         --link-color-bold: var(--almost-black);
         --link-color-services: var(--almost-black);
         --text-shadow: 0 0 15px white;
+        --title-color: var(--almost-black);
         --section-02-background-color: var(--almost-black);
         --section-02-text-color: #CCCCCC;
         --section-02-signature-color: #CD7FFF;
@@ -45,6 +47,8 @@
         --section-01-image-height: 300px;
         --section-01-image-display: none;
         --section-01-title-font-size: 50px;
+        --title-color: white;
+        --text-shadow: none;
         --padding: 32px 32px 32px 32px;
         --section-02-detail-container-height: auto;
         --section-02-detail-width: 100%;
@@ -318,7 +322,7 @@
 }
 
 .section-01-title-font {
-    color: var(--link-color-services);
+    color: var(--title-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: normal;
     font-size: var(--section-01-title-font-size);
