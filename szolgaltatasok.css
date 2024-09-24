@@ -1,17 +1,13 @@
+
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: linear-gradient(to bottom, rgba(18, 18, 21, 1) 0%, rgba(38, 38, 41, 1) 100%);
         --menu-title-color: white;
-        --hamburger-color-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(236deg) brightness(103%) contrast(104%);
+        --svg-color-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(236deg) brightness(103%) contrast(104%);
         --link-color: #AAAAAA;
         --link-color-bold: white;
-        --link-color-services: white;
-        --text-shadow: none;
-        --section-02-background-color: white;
-        --section-02-text-color: #242430;
-        --section-02-signature-color: #7000A0;
-        --section-03-text-color: white;
+        --service-desc-text-color: white;
     }
 }
 
@@ -21,15 +17,10 @@
         --almost-black: #121215;
         --background-color: linear-gradient(to bottom, rgba(239, 239, 239, 1) 0%, rgba(204, 204, 204, 1) 100%);
         --menu-title-color: var(--almost-black);
-        --hamburger-color-filter: brightness(0) saturate(100%) invert(4%) sepia(2%) saturate(6301%) hue-rotate(202deg) brightness(97%) contrast(92%);
+        --svg-color-filter: brightness(0) saturate(100%) invert(4%) sepia(2%) saturate(6301%) hue-rotate(202deg) brightness(97%) contrast(92%);
         --link-color: #444444;
         --link-color-bold: var(--almost-black);
-        --link-color-services: var(--almost-black);
-        --text-shadow: 0 0 15px white;
-        --section-02-background-color: var(--almost-black);
-        --section-02-text-color: #CCCCCC;
-        --section-02-signature-color: #CD7FFF;
-        --section-03-text-color: var(--almost-black);
+        --service-desc-text-color: var(--almost-black);
     }
 }
 
@@ -55,35 +46,8 @@
         --section-03-par-font-size: 18px;
         --section-04-font-size: 40px;
         --section-04-height: 150px;
-    }
-
-    .section-01-container {
-        width: 100%;
-        height: 300px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: stretch;
-        align-content: stretch;
-        justify-content: center;
-        background-image: url("./img/image_1.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 0;
-    }
-
-    .section-01-title-layout {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        margin-top: 34px;
-    }
-
-    .section-03-par-margin {
-        margin-bottom: 25px;
+        --services-description-container-padding: 0 40px 0 40px;
+        --par-font-size: 20px;
     }
 
     .letter-spacing {
@@ -113,31 +77,8 @@
         --section-03-par-font-size: 24px;
         --section-04-font-size: 120px;
         --section-04-height: 300px;
-    }
-
-    .section-01-container {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: stretch;
-        align-content: stretch;
-        justify-content: space-between;
-        padding: 80px 80px 80px 80px;
-    }
-
-    .section-01-title-layout {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        position: absolute;
-        left: 529px;
-        top: 233px;
-    }
-
-    .section-03-par-margin {
-        margin-bottom: 40px;
+        --services-description-container-padding: 0;
+        --par-font-size: 24px;
     }
 
     .letter-spacing {
@@ -179,15 +120,6 @@
     font-display: block;
     src: url(./fonts/KFOlCnqEu92Fr1MmYUtfBBc4.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    src: url(./fonts/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 .content-container {
@@ -233,7 +165,7 @@
 
 .hamburger {
     display: var(--hamburger-display);
-    filter: var(--hamburger-color-filter);
+    filter: var(--svg-color-filter);
     cursor: pointer;
 }
 
@@ -280,147 +212,7 @@
     font-weight: 700;
 }
 
-.link-services {
-    color: var(--link-color-services);
-    font-size: 30px;
-}
-
-.section-01-image-container {
-    width: var(--section-01-image-width);;
-    height: auto;
-    display: var(--section-01-image-display);
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: start;
-    align-content: stretch;
-    justify-content: start;
-}
-
-.section-01-image {
-    width: var(--section-01-image-width);
-    height: var(--section-01-image-height);
-    border: 0;
-    flex-shrink: 0;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.section-01-services-container {
-    width: auto;
-    height: auto;
-    display: var(--services-display);
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    align-content: stretch;
-    justify-content: flex-end;
-    flex-shrink: 0;
-}
-
-.section-01-title-font {
-    color: var(--link-color-services);
-    font-family: "Roboto", "Times New Roman", sans-serif, Times;
-    font-style: normal;
-    font-size: var(--section-01-title-font-size);
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0;
-    text-decoration: none;
-    text-transform: none;
-    flex-shrink: 0;
-    text-shadow: var(--text-shadow);
-}
-
-.section-02-container {
-    width: 100%;
-    height: auto;
-    background-color: var(--section-02-background-color);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: stretch;
-    justify-content: start;
-    gap: 50px;
-    padding: var(--padding);
-}
-
-.section-02-title {
-    color: var(--section-02-text-color);
-    font-family: "Roboto", "Times New Roman", sans-serif, Times;
-    font-style: normal;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0;
-    text-decoration: none;
-    text-transform: none;
-    flex-shrink: 0;
-}
-
-.section-02-detail-container {
-    width: 100%;
-    height: var(--section-02-detail-container-height);
-    display: flex;
-    flex-direction: var(--flex-direction);
-    flex-wrap: nowrap;
-    align-items: start;
-    align-content: stretch;
-    justify-content: space-between;
-    gap: 50px;
-}
-
-.section-02-detail {
-    width: var(--section-02-detail-width);
-    height: var(--section-02-detail-height);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: stretch;
-    justify-content: start;
-    gap: 50px;
-    flex-shrink: 0;
-}
-
-.section-02-detail-image {
-    width: 168px;
-    height: 168px;
-    border-radius: 500px;
-    flex-shrink: 0;
-}
-
-.section-02-detail-text {
-    width: 100%;
-    height: var(--section-02-detail-text-height);
-    color: var(--section-02-text-color);
-    font-family: "Roboto", "Times New Roman", sans-serif, Times;
-    font-style: italic;
-    font-size: var(--section-02-detail-font-size);
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0;
-    text-decoration: none;
-    text-transform: none;
-    flex-shrink: 0;
-    align-self: start;
-}
-
-.section-02-signature-font {
-    color: var(--section-02-signature-color);
-    font-family: "Roboto", "Times New Roman", sans-serif, Times;
-    font-style: normal;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0;
-    text-decoration: none;
-    text-transform: none;
-    flex-shrink: 0;
-    align-self: flex-end;
-}
-
-.section-03-container {
+.services-container {
     width: 100%;
     height: auto;
     display: flex;
@@ -429,12 +221,12 @@
     align-items: center;
     align-content: stretch;
     justify-content: center;
-    gap: var(--section-03-gap);
+    gap: 80px;
     padding: var(--padding);
 }
 
-.section-03-title {
-    color: var(--section-03-text-color);
+.service-title {
+    color: var(--service-desc-text-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: italic;
     font-size: 40px;
@@ -446,17 +238,83 @@
     flex-shrink: 0;
 }
 
-.section-03-par {
-    color: var(--section-03-text-color);
+.services-description-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+    gap: 50px;
+}
+
+.services-description-column {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+    gap: 50px;
+}
+
+.services-description-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: var(--flex-direction);
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+    gap: 50px;
+}
+
+.service-description-item-container {
+    height: auto;
+    width: 393px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: start;
+    gap: 32px;
+    padding: var(--services-description-container-padding);
+}
+
+.service-desc-item-image {
+    filter: var(--svg-color-filter);
+    cursor: pointer;
+}
+
+.service-desc-item-title {
+    color: var(--service-desc-text-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: normal;
-    font-size: var(--section-03-par-font-size);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+}
+
+.service-desc-item-par {
+    color: var(--service-desc-text-color);
+    font-family: "Roboto", "Times New Roman", sans-serif, Times;
+    font-style: normal;
+    font-size: var(--par-font-size);
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0;
     text-decoration: none;
     text-transform: none;
-    flex-shrink: 0;
 }
 
 .footer-container {
@@ -494,4 +352,3 @@
     text-transform: none;
     flex-shrink: 0;
 }
-

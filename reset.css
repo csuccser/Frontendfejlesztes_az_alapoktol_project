@@ -26,7 +26,7 @@ body {
     align-items: start;
     align-content: stretch;
     justify-content: start;
-    background: rgba(255, 255, 255, 0);
+    background: white;
 }
 
 p, div, h1, h2, h3, h4 {

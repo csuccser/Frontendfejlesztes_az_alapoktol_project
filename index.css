@@ -2,7 +2,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: linear-gradient(to bottom, rgba(18, 18, 21, 1) 0%,rgba(38, 38, 41, 1) 100%);
-        --title-color: #FFFFFF;
+        --menu-title-color: #FFFFFF;
         --rectangle-color: #F9FAFF;
         --link-color: #AAAAAA;
     }
@@ -12,7 +12,7 @@
 @media (prefers-color-scheme: light) {
     :root {
         --background-color: linear-gradient(to bottom, rgba(239, 239, 239, 1) 0%,rgba(204, 204, 204, 1) 100%);;
-        --title-color: #121215;
+        --menu-title-color: #121215;
         --rectangle-color: #121215;
         --link-color: #444444;
     }
@@ -96,7 +96,7 @@
 }
 
 .title {
-    color: var(--title-color);
+    color: var(--menu-title-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: normal;
     font-size: var(--title-font-size);
