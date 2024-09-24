@@ -232,6 +232,7 @@
     align-items: stretch;
     align-content: stretch;
     justify-content: center;
+    gap: 80px;
 }
 
 .contact-title {
@@ -260,8 +261,12 @@
     flex-shrink: 0;
 }
 
-.contact-row {
-    flex-basis: 50%;
+.contact-row-67 {
+    flex-basis: 67%;
+}
+
+.contact-row-33 {
+    flex-basis: 33%;
 }
 
 .contact-link {
