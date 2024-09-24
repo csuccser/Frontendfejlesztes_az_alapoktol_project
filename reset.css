@@ -27,6 +27,7 @@ body {
     align-content: stretch;
     justify-content: start;
     background: white;
+    overflow-x: hidden;
 }
 
 p, div, h1, h2, h3, h4 {

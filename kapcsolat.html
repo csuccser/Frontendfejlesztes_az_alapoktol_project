@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="kapcsolat.css">
+    <link rel="stylesheet" href="hamburger-bar.css">
 </head>
 <body>
 <div class="content-container">
@@ -16,7 +17,7 @@
             <!--  title-->
             <a href="index.html" class="title">ACME Inc.</a>
 
-            <img src="./img/hamburger.svg" class="hamburger" alt="hamburger menu"></img>
+            <img src="./img/hamburger.svg" id="hamburger-menu-icon" class="hamburger" alt="hamburger menu"></img>
 
             <!-- nav items -->
             <div class="nav-items">
@@ -26,6 +27,15 @@
             </div>
         </div>
     </div>
+
+    <!--    hamburger navbar-->
+    <nav class="navbar" id="hamburger-bar">
+        <div class="navbar-item-container">
+            <a rel="next" href="ceginformacio.html" class="link navbar-item" onclick="closeNavbar()">Céginformáció</a>
+            <a rel="next" href="szolgaltatasok.html" class="link navbar-item" onclick="closeNavbar()">Szolgáltatásaink</a>
+            <a rel="next" href="kapcsolat.html" class="link link-bold navbar-item" onclick="closeNavbar()">Kapcsolat</a>
+        </div>
+    </nav>
 
     <!-- contact container - Kapcsolat -->
     <div class="contact-container">
@@ -83,5 +93,6 @@
     </div>
 
 </div>
+<script src="hamburger.js"></script>
 </body>
 </html>
