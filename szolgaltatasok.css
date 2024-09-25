@@ -349,7 +349,6 @@
 
 .service-desc-item-image {
     filter: var(--svg-color-filter);
-    cursor: pointer;
 }
 
 .service-desc-item-title {
