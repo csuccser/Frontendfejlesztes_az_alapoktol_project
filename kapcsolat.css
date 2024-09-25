@@ -38,8 +38,6 @@
         --nav-items-display: none;
         --hamburger-display: inline;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 40px;
-        --footer-height: 150px;
         --services-description-container-padding: 0 40px 0 40px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
@@ -49,6 +47,8 @@
         --message-form-row-gap: 32px;
         --form-input-width: 100%;
         --form-button-width: 100%;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
     }
 
     .contact-par-margin {
@@ -67,8 +67,6 @@
         --nav-items-display: none;
         --hamburger-display: inline;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 40px;
-        --footer-height: 150px;
         --services-description-container-padding: 0 40px 0 40px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
@@ -78,6 +76,8 @@
         --message-form-row-gap: 32px;
         --form-input-width: 100%;
         --form-button-width: 100%;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
     }
 
     .contact-par-margin {
@@ -96,8 +96,6 @@
         --nav-items-display: none;
         --hamburger-display: inline;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 40px;
-        --footer-height: 150px;
         --services-description-container-padding: 0 40px 0 40px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
@@ -107,6 +105,8 @@
         --message-form-row-gap: 32px;
         --form-input-width: 100%;
         --form-button-width: 100%;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
     }
 
     .contact-par-margin {
@@ -125,8 +125,6 @@
         --nav-items-display: none;
         --hamburger-display: inline;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 40px;
-        --footer-height: 150px;
         --services-description-container-padding: 0 40px 0 40px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
@@ -136,6 +134,8 @@
         --message-form-row-gap: 32px;
         --form-input-width: 100%;
         --form-button-width: 100%;
+        --footer-font-size: 60px;
+        --footer-height: 200px;
     }
 
     .contact-par-margin {
@@ -143,7 +143,7 @@
     }
 
     .letter-spacing {
-        letter-spacing: 50px;
+        letter-spacing: 100px;
     }
 }
 
@@ -154,8 +154,6 @@
         --nav-items-display: flex;
         --hamburger-display: none;
         --padding: 80px 80px 80px 80px;
-        --footer-font-size: 80px;
-        --footer-height: 250px;
         --services-description-container-padding: 0;
         --services-container-gap: 80px;
         --par-font-size: 24px;
@@ -165,6 +163,8 @@
         --message-form-row-gap: 32px;
         --form-input-width: 100%;
         --form-button-width: 312px;
+        --footer-font-size: 80px;
+        --footer-height: 250px;
     }
 
     .contact-par-margin {
@@ -172,7 +172,7 @@
     }
 
     .letter-spacing {
-        letter-spacing: 200px;
+        letter-spacing: 100px;
     }
 }
 

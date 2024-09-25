@@ -33,13 +33,13 @@
         --nav-items-display: none;
         --hamburger-display: inline;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 40px;
-        --footer-height: 150px;
         --services-description-container-padding: 0 40px 0 40px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
         --services-description-container-flex-direcion: column;
         --service-description-item-container-height: auto;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
     }
 
     .letter-spacing {
@@ -54,13 +54,13 @@
         --nav-items-display: none;
         --hamburger-display: inline;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 40px;
-        --footer-height: 150px;
         --services-description-container-padding: 0 20px 0 20px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
         --services-description-container-flex-direcion: column;
         --service-description-item-container-height: auto;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
     }
 
     .letter-spacing {
@@ -75,13 +75,13 @@
         --nav-items-display: none;
         --hamburger-display: inline;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 40px;
-        --footer-height: 150px;
         --services-description-container-padding: 0 40px 0 40px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
         --services-description-container-flex-direcion: column;
         --service-description-item-container-height: auto;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
     }
 
     .letter-spacing {
@@ -96,17 +96,17 @@
         --nav-items-display: none;
         --hamburger-display: inline;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 40px;
-        --footer-height: 150px;
         --services-description-container-padding: 0 40px 0 40px;
         --services-container-gap: 64px;
         --par-font-size: 20px;
         --services-description-container-flex-direcion: row;
         --service-description-item-container-height: 420px;
+        --footer-font-size: 60px;
+        --footer-height: 200px;
     }
 
     .letter-spacing {
-        letter-spacing: 50px;
+        letter-spacing: 100px;
     }
 }
 
@@ -117,17 +117,17 @@
         --nav-items-display: flex;
         --hamburger-display: none;
         --padding: 32px 32px 32px 32px;
-        --footer-font-size: 80px;
-        --footer-height: 250px;
         --services-description-container-padding: 0;
         --services-container-gap: 64px;
         --par-font-size: 24px;
         --services-description-container-flex-direcion: row;
         --service-description-item-container-height: 420px;
+        --footer-font-size: 80px;
+        --footer-height: 250px;
     }
 
     .letter-spacing {
-        letter-spacing: 50px;
+        letter-spacing: 100px;
     }
 }
 

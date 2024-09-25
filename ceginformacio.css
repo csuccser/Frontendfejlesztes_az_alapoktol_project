@@ -183,8 +183,8 @@
         --section-02-detail-font-size: 30px;
         --contact-gap: 32px;
         --section-03-par-font-size: 24px;
-        --footer-font-size: 60px;
-        --footer-height: 200px;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
     }
 
     .section-01-container {
@@ -280,7 +280,7 @@
     }
 
     .letter-spacing {
-        letter-spacing: 50px;
+        letter-spacing: 100px;
     }
 }
 
@@ -305,8 +305,8 @@
         --section-02-detail-font-size: 22px;
         --contact-gap: 80px;
         --section-03-par-font-size: 24px;
-        --footer-font-size: 60px;
-        --footer-height: 200px;
+        --footer-font-size: 80px;
+        --footer-height: 250px;
     }
 
     .section-01-container {
@@ -340,7 +340,7 @@
     }
 
     .letter-spacing {
-        letter-spacing: 200px;
+        letter-spacing: 100px;
     }
 }
 
