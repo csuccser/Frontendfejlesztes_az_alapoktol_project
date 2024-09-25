@@ -31,3 +31,10 @@ p, div, h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
 }
+
+header, section, footer, main, aside, nav {
+    display: inline-block; /* or flex/grid depending on your layout */
+    width: 100%; /* You can control the width or other properties */
+    margin: 0;
+    padding: 0;
+}
