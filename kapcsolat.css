@@ -44,7 +44,7 @@
         --services-container-gap: 64px;
         --par-font-size: 20px;
         --contact-gap: 32px;
-        --contact-par-font-size: 18px;
+        --section-03-par-font-size: 18px;
         --iframe-height: 400px;
         --message-form-row-gap: 32px;
         --form-input-width: 100%;
@@ -73,7 +73,7 @@
         --services-container-gap: 64px;
         --par-font-size: 20px;
         --contact-gap: 32px;
-        --contact-par-font-size: 20px;
+        --section-03-par-font-size: 20px;
         --iframe-height: 400px;
         --message-form-row-gap: 32px;
         --form-input-width: 100%;
@@ -102,7 +102,7 @@
         --services-container-gap: 64px;
         --par-font-size: 20px;
         --contact-gap: 64px;
-        --contact-par-font-size: 22px;
+        --section-03-par-font-size: 22px;
         --iframe-height: 400px;
         --message-form-row-gap: 32px;
         --form-input-width: 100%;
@@ -131,9 +131,9 @@
         --services-container-gap: 64px;
         --par-font-size: 20px;
         --contact-gap: 64px;
-        --contact-par-font-size: 24px;
+        --section-03-par-font-size: 24px;
         --iframe-height: 400px;
-        --message-form-row-gap: 64px;
+        --message-form-row-gap: 32px;
         --form-input-width: 100%;
         --form-button-width: 100%;
     }
@@ -160,9 +160,9 @@
         --services-container-gap: 80px;
         --par-font-size: 24px;
         --contact-gap: 80px;
-        --contact-par-font-size: 24px;
+        --section-03-par-font-size: 24px;
         --iframe-height: 400px;
-        --message-form-row-gap: 100px;
+        --message-form-row-gap: 32px;
         --form-input-width: 100%;
         --form-button-width: 312px;
     }
@@ -189,7 +189,7 @@
         --services-container-gap: 80px;
         --par-font-size: 24px;
         --contact-gap: 80px;
-        --contact-par-font-size: 24px;
+        --section-03-par-font-size: 24px;
         --iframe-height: 100%;
         --message-form-row-gap: 100px;
         --form-input-width: 300px;
@@ -205,7 +205,7 @@
     }
 }
 
-/* desktop size */
+/* large desktop size */
 @media only screen and (min-width: 1440px) {
     :root {
         --flex-direction: row;
@@ -218,7 +218,7 @@
         --services-container-gap: 80px;
         --par-font-size: 24px;
         --contact-gap: 80px;
-        --contact-par-font-size: 24px;
+        --section-03-par-font-size: 24px;
         --iframe-height: 100%;
         --message-form-row-gap: 100px;
         --form-input-width: 360px;
@@ -421,7 +421,7 @@
     color: var(--contact-text-color);
     font-family: "Roboto", "Times New Roman", sans-serif, Times;
     font-style: normal;
-    font-size: var(--contact-par-font-size);
+    font-size: var(--section-03-par-font-size);
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0;
