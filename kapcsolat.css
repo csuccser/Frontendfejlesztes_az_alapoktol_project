@@ -31,7 +31,7 @@
     }
 }
 
-/* mobile size */
+/* mobile size - less then 375 */
 @media only screen and (max-width: 375px) {
     :root {
         --flex-direction: column;
@@ -60,8 +60,153 @@
     }
 }
 
+/* Standard mobile size - between 375 and 576 */
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+    :root {
+        --flex-direction: column;
+        --nav-items-display: none;
+        --hamburger-display: inline;
+        --padding: 32px 32px 32px 32px;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
+        --services-description-container-padding: 0 40px 0 40px;
+        --services-container-gap: 64px;
+        --par-font-size: 20px;
+        --contact-gap: 32px;
+        --contact-par-font-size: 20px;
+        --iframe-height: 400px;
+        --message-form-row-gap: 32px;
+        --form-input-width: 100%;
+        --form-button-width: 100%;
+    }
+
+    .contact-par-margin {
+        margin-top: 25px;
+    }
+
+    .letter-spacing {
+        letter-spacing: 50px;
+    }
+}
+
+/* Larger mobile size - between 576 and 768 */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    :root {
+        --flex-direction: column;
+        --nav-items-display: none;
+        --hamburger-display: inline;
+        --padding: 32px 32px 32px 32px;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
+        --services-description-container-padding: 0 40px 0 40px;
+        --services-container-gap: 64px;
+        --par-font-size: 20px;
+        --contact-gap: 64px;
+        --contact-par-font-size: 22px;
+        --iframe-height: 400px;
+        --message-form-row-gap: 32px;
+        --form-input-width: 100%;
+        --form-button-width: 100%;
+    }
+
+    .contact-par-margin {
+        margin-top: 25px;
+    }
+
+    .letter-spacing {
+        letter-spacing: 50px;
+    }
+}
+
+/* small tablets size - between 769 and 992 */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    :root {
+        --flex-direction: column;
+        --nav-items-display: none;
+        --hamburger-display: inline;
+        --padding: 32px 32px 32px 32px;
+        --footer-font-size: 40px;
+        --footer-height: 150px;
+        --services-description-container-padding: 0 40px 0 40px;
+        --services-container-gap: 64px;
+        --par-font-size: 20px;
+        --contact-gap: 64px;
+        --contact-par-font-size: 24px;
+        --iframe-height: 400px;
+        --message-form-row-gap: 64px;
+        --form-input-width: 100%;
+        --form-button-width: 100%;
+    }
+
+    .contact-par-margin {
+        margin-top: 25px;
+    }
+
+    .letter-spacing {
+        letter-spacing: 50px;
+    }
+}
+
+/* Tablets and smaller laptops size */
+@media only screen and (min-width: 993px) and (max-width: 1279px) {
+    :root {
+        --flex-direction: column;
+        --nav-items-display: flex;
+        --hamburger-display: none;
+        --padding: 80px 80px 80px 80px;
+        --footer-font-size: 80px;
+        --footer-height: 250px;
+        --services-description-container-padding: 0;
+        --services-container-gap: 80px;
+        --par-font-size: 24px;
+        --contact-gap: 80px;
+        --contact-par-font-size: 24px;
+        --iframe-height: 400px;
+        --message-form-row-gap: 100px;
+        --form-input-width: 100%;
+        --form-button-width: 312px;
+    }
+
+    .contact-par-margin {
+        margin-top: 40px;
+    }
+
+    .letter-spacing {
+        letter-spacing: 200px;
+    }
+}
+
 /* desktop size */
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    :root {
+        --flex-direction: row;
+        --nav-items-display: flex;
+        --hamburger-display: none;
+        --padding: 80px 80px 80px 80px;
+        --footer-font-size: 120px;
+        --footer-height: 300px;
+        --services-description-container-padding: 0;
+        --services-container-gap: 80px;
+        --par-font-size: 24px;
+        --contact-gap: 80px;
+        --contact-par-font-size: 24px;
+        --iframe-height: 100%;
+        --message-form-row-gap: 100px;
+        --form-input-width: 300px;
+        --form-button-width: 312px;
+    }
+
+    .contact-par-margin {
+        margin-top: 40px;
+    }
+
+    .letter-spacing {
+        letter-spacing: 200px;
+    }
+}
+
+/* desktop size */
+@media only screen and (min-width: 1440px) {
     :root {
         --flex-direction: row;
         --nav-items-display: flex;
@@ -349,7 +494,6 @@ iframe {
 
 .message-form-row {
     width: 100%;
-    /*max-width: 360px;*/
     height: auto;
     display: flex;
     flex-direction: var(--flex-direction);
@@ -378,6 +522,7 @@ form {
     width: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     padding: var(--padding);
