@@ -4,11 +4,11 @@
     <title>ACME Inc. - Kapcsolat</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="prefetch" href="./fonts/KFOkCnqEu92Fr1MmgVxIIzI.woff2"/>
-    <link rel="prefetch" href="./fonts/KFOmCnqEu92Fr1Mu4mxK.woff2"/>
-    <link rel="prefetch" href="./fonts/KFOmCnqEu92Fr1Mu7GxKOzY.woff2"/>
-    <link rel="prefetch" href="./fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"/>
-    <link rel="prefetch" href="./fonts/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2"/>
+    <link rel="prefetch" href="./fonts/KFOkCnqEu92Fr1MmgVxIIzI.woff2">
+    <link rel="prefetch" href="./fonts/KFOmCnqEu92Fr1Mu4mxK.woff2">
+    <link rel="prefetch" href="./fonts/KFOmCnqEu92Fr1Mu7GxKOzY.woff2">
+    <link rel="prefetch" href="./fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2">
+    <link rel="prefetch" href="./fonts/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="kapcsolat.css">
@@ -24,7 +24,7 @@
                 <!--  title-->
                 <a href="index.html" class="title">ACME Inc.</a>
 
-                <img src="./img/hamburger.svg" id="hamburger-menu-icon" class="hamburger" alt="hamburger menu"></img>
+                <img src="./img/hamburger.svg" id="hamburger-menu-icon" class="hamburger" alt="hamburger menu">
 
                 <!-- nav items -->
                 <div class="nav-items">
@@ -101,43 +101,41 @@
     </section>
 
     <!-- message form container -->
-    <section>
-        <form action="#">
-            <div class="message-form-row">
-                <div class="input-group">
-                    <label for="name">Név</label>
-                    <input id="name" type="text" name="name" required>
-                </div>
-                <div class="input-group">
-                    <label for="email">E-mail cím</label>
-                    <input id="email" type="email" name="email" required>
-                </div>
-                <div class="input-group">
-                    <label for="tel">Telefonszám</label>
-                    <input id="tel" type="tel" name="tel" required>
-                </div>
+    <form action="#">
+        <div class="message-form-row">
+            <div class="input-group">
+                <label for="name">Név</label>
+                <input id="name" type="text" name="name" required>
             </div>
-            <div class="message-form-row">
-                <div class="input-group width-100">
-                    <label for="message">Üzenet</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
+            <div class="input-group">
+                <label for="email">E-mail cím</label>
+                <input id="email" type="email" name="email" required>
             </div>
-            <div class="message-form-row">
-                <div class="input-group width-100">
-                    <button id="send_btn" type="submit" name="send_btn">Küldés</button>
-                </div>
+            <div class="input-group">
+                <label for="tel">Telefonszám</label>
+                <input id="tel" type="tel" name="tel" required>
             </div>
-        </form>
-    </section>
+        </div>
+        <div class="message-form-row">
+            <div class="input-group width-100">
+                <label for="message">Üzenet</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+        </div>
+        <div class="message-form-row">
+            <div class="input-group width-100">
+                <button id="send_btn" type="submit" name="send_btn">Küldés</button>
+            </div>
+        </div>
+    </form>
 
     <!-- footer -->
     <footer>
         <div class="footer-container">
             <div class="footer-text-container">
             <span>
-                <p class="footer-text letter-spacing">ACM</p>
-                <p class="footer-text">E</p>
+                <span class="footer-text letter-spacing">ACM</span>
+                <span class="footer-text">E</span>
             </span>
             </div>
         </div>
