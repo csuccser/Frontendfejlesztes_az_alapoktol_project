@@ -491,6 +491,7 @@ input {
     border-left: 0;
     border-right: 0;
     border-bottom: 3px solid #7000A0;
+    border-radius: 0;
 }
 
 textarea {
@@ -501,6 +502,7 @@ textarea {
     border-left: 0;
     border-right: 0;
     border-bottom: 3px solid #7000A0;
+    border-radius: 0;
 }
 
 label {
