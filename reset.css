@@ -1,13 +1,4 @@
-/* Adjust for landscape mode */
-@media screen and (orientation: landscape) {
-    body {
-        /* For landscape */
-        padding: env(safe-area-inset-left) env(safe-area-inset-bottom) env(safe-area-inset-right) env(safe-area-inset-top);
-    }
-    html, body {
-        min-height: 100vh; /* Ensure full screen coverage in landscape */
-    }
-}
+
 
 
 * {
@@ -48,4 +39,15 @@ header, section, footer, main, aside, nav {
     width: 100%; /* You can control the width or other properties */
     margin: 0;
     padding: 0;
+}
+
+/* Adjust for landscape mode */
+@media screen and (orientation: landscape) {
+    body {
+        /* For landscape */
+        padding: env(safe-area-inset-left) env(safe-area-inset-bottom) env(safe-area-inset-right) env(safe-area-inset-top);
+    }
+    html, body {
+        min-height: 100vh; /* Ensure full screen coverage in landscape */
+    }
 }
