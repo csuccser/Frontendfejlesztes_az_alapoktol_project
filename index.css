@@ -35,6 +35,7 @@
         --rectangle-height: 1px;
         --link-align-items: center;
         --link-font-size: 40px;
+        --links-container-max-width: auto;
     }
 }
 
@@ -48,6 +49,7 @@
         --rectangle-height: 1px;
         --link-align-items: center;
         --link-font-size: 40px;
+        --links-container-max-width: auto;
     }
 }
 
@@ -61,6 +63,7 @@
         --rectangle-height: 1px;
         --link-align-items: center;
         --link-font-size: 54px;
+        --links-container-max-width: auto;
     }
 }
 
@@ -74,6 +77,7 @@
         --rectangle-height: auto;
         --link-align-items: start;
         --link-font-size: 40px;
+        --links-container-max-width: 301px;
     }
 }
 /* desktop size */
@@ -86,6 +90,7 @@
         --rectangle-height: auto;
         --link-align-items: start;
         --link-font-size: 54px;
+        --links-container-max-width: 401px;
     }
 }
 
@@ -154,6 +159,7 @@
     align-content: stretch;
     justify-content: start;
     gap: 14px;
+    max-width: var(--links-container-max-width);
 }
 
 .link {
