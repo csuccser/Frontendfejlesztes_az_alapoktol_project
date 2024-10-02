@@ -48,7 +48,7 @@
 }
 
 /* Standard mobile size - between 375 and 576 */
-@media only screen and (min-width: 375px) and (max-width: 576px) {
+@media only screen and (min-width: 376px) and (max-width: 575px) {
     :root {
         --flex-direction: column;
         --nav-items-display: none;
@@ -132,7 +132,7 @@
 }
 
 /* desktop size */
-@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
     :root {
         --flex-direction: row;
         --nav-items-display: flex;

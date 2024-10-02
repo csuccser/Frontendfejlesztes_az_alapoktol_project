@@ -39,7 +39,7 @@
 }
 
 /* Standard mobile size - between 375 and 576 */
-@media only screen and (min-width: 375px) and (max-width: 576px) {
+@media only screen and (min-width: 376px) and (max-width: 575px) {
     :root {
         --flex-direction: column;
         --title-font-size: 48px;
